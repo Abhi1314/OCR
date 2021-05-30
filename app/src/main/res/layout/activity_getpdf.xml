@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     tools:context=".Getpdf">
 
     <EditText
@@ -12,10 +12,10 @@
         android:layout_width="392dp"
         android:layout_height="84dp"
         android:hint="detected text"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
+        android:textColorHint="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -29,7 +29,8 @@
         android:layout_height="83dp"
         android:layout_above="@id/Content"
         android:hint="Document Title"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
